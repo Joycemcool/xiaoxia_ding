@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Source: https://medium.com/@egwuchinedu69/how-to-send-contact-form-data-to-an-email-address-without-server-side-language-adeec579c586  -->
+
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Halifax, developer, programmer, full-stack">
+        <meta name="author" content="Xiaoxia">
+        <title>Contact Me</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/contact.css">
+        <link rel="stylesheet" href="css/portfolio_style.css">
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Xiaoxia Ding</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="resume_xiaoxia_ding.html">Resume</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="index.html">Contact Me</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="index.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Learning Log</a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="index.html#A1">Python</a></li>
+                                <li><a class="dropdown-item" href="index.html#A2">HTML</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="index.html#A5">Word</a></li>
+                            </ul>
+
+
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page content-->
+        <div class="container"> 
+            <div class="text-center mt-5">
+                <div class="contact-me">
+
+                    <div class="contact-me-heading" >Contact Me</div>
+
+                    <form method="POST" name="contact" data-netlify="true">
+                        
+                        <label for="firstname">First Name</label>
+                        <input type="text" id="firstname" name="Firstname"
+                            placeholder="Your name.." required>
+                        <label for="lastname">Last Name</label>
+                        <input type="text" id="lastname" name="Lastname" 
+                            placeholder="Your last name.." required>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="Email"     
+                            placeholder="Your email address.." required>
+                        <label for="message">Message</label> 
+                        <textarea id="message" name="Subject" 
+                            placeholder="Write something.." required></textarea>
+                        <button type="submit"> Submit </button>
+                    </form>
+                </div>
+
+                <!-- Center -->
+                <p class="lead">Xiaoxia Ding Update on December, 2022</p>
+                
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

@@ -1,0 +1,304 @@
+@charset "UTF-8";
+
+/*!
+
+Stylesheet for Final Project
+Date: 2022 - 12 - 14
+Author: Xiaoxia Ding
+Student#: 0471965
+ */
+
+footer {
+  background: var(--primary);
+  font-size: .75rem;
+  padding: .5rem;
+  text-align: center;
+  color: #fff;
+}
+
+.li-border {
+  margin: 0.5rem 0;
+  color: grey;
+  border-bottom: 1px solid gainsboro;
+  padding-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+a:link {
+  color: #212529;
+  text-decoration: none;
+}
+  
+a:visited {
+    color: rgba(126, 87, 194, 0.7);
+}
+  
+  /* mouse over link */
+a:hover, a:active {
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 4px;
+    background-color: #aaa;
+}
+  
+/* Index page style */
+
+.intro {
+    font-size: calc(1.375rem + 1.5vw);
+    padding: 8rem;
+  }
+  
+.left-container {
+padding-left: 1rem;
+padding-right: 1rem; 
+border-radius: 4px;
+box-shadow: 0 0.5rem 1rem var(--bs-gray-200);
+}
+
+.Intro_Goal {
+color: #fff;
+height: 596px;
+width: 100% !important;
+font-size: 48px;
+font-weight: 500;
+line-height: var(--bs-body-line-height);
+margin-bottom: 3rem;
+padding: 5rem;
+background-color: rgba(126, 87, 194, 0.7);
+box-shadow:0 0.5rem 1rem rgb(0, 0, 0 / 15%);
+overflow: auto;
+border-radius: 4px;
+text-align: center;
+border-left: .5rem solid var(--primary);
+align-items: center;
+}
+
+.intro-text {
+margin-top: 4rem;
+}
+
+.credit {
+    text-align: right;
+}
+
+.n-sizing {
+margin-left: calc(-1 * var(--sizing));
+margin-right: calc(-1 * var(--sizing));
+/* color: #fff; */
+padding: 1rem var(--sizing);
+padding-left: var(--sizing);
+padding-right: var(--sizing); 
+background-color: rgba(126, 87, 194, .07);
+border-radius: 4px;
+box-shadow: 0 0.5rem 1rem rgb(0, 0, 0 / 15%);
+}
+
+.learning-heading {
+font-size: 1.5rem;
+text-transform: capitalize;
+margin-left: 3rem;
+margin-right: 3rem;
+margin-bottom: 1rem;
+margin-top: 1rem;
+padding: .25rem 2rem .25rem 1rem;
+border-left: .5rem solid var(--primary);
+text-transform: uppercase;
+font-weight: 500;
+font-size: 1.5rem;
+/* background: rgba(126, 87, 194, .07); */
+}
+
+.learning-sharing p {
+/* display: list-item; 
+background-color: var(--bs-secondary); */
+text-align: left;
+}
+
+.learning-index {
+margin: 2rem;
+padding: 2.5rem;
+border-radius: 4px;
+box-shadow: 0 0.5rem 1rem var(--bs-gray-200);
+}
+
+div.padding-nothing {
+margin-left: 0;
+margin-right: 0;
+}
+
+.list-heading {
+list-style: none;
+font-size: 1rem;
+display: flex;
+font-weight: 700;
+margin-bottom: 2px;
+text-align: left;
+}
+
+.list-no-bullet {
+list-style-type: none;
+padding: 0;
+margin: 0;
+text-align: left;
+}
+
+hr {
+margin: 0.5rem 0;
+color: inherit;
+background-color: currentColor;
+border: 0;
+opacity: 0.25;
+}
+
+hr:not([size]) {
+height: 1px;
+}
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+margin-top: 0;
+margin-bottom: 0.5rem;
+font-weight: 500;
+line-height: 1.2;
+}
+
+/* Resume Style */
+
+h1, .h1 {
+font-size: calc(1.375rem + 1.5vw);
+padding: 8rem;
+}
+
+.name {
+font-size: 4rem;
+margin: 0 auto;
+text-align:center;
+margin-top: 4rem;
+}
+
+.flex-filled {
+flex: 1;
+}
+
+.resume-header {
+padding: 2rem 0;
+background: var(--header-bg);
+}
+
+.avatar {
+margin-right: 1rem;
+display: block;
+margin: 0 auto;
+}
+
+.student {
+font-weight: 800;
+}
+
+.avatar img {
+display: block;
+border-radius: 50%;
+padding: 4px;
+border: 1px solid #aaa;
+max-width: 164px;
+margin: 0 auto;
+}
+
+.block {
+margin: 3rem 0;
+background: var(--block-bg);
+padding: 1rem var(--sizing);
+border-radius: 4px;
+box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+text-align: left;
+}
+
+.block > header {
+font-size: 1.5rem;
+text-transform: capitalize;
+margin-left: calc(-1 * var(--sizing));
+margin-right: calc(-1 * var(--sizing));
+padding: .25rem 2rem .25rem 1rem;
+border-left: .5rem solid var(--primary);
+text-transform: uppercase;
+font-weight: 700;
+font-size: 1.5rem;
+background: rgba(126, 87, 194, .07);
+text-align: left;
+}
+
+.block article {
+padding: 1rem 0 1.5rem 0;
+text-align: left;
+}
+
+.block article > h4 {
+font-size: 1rem;
+font-weight: 600;
+text-align: left;
+text-align: left;
+}
+
+.block article .body p {
+margin-top: .5rem;
+margin-left: 1rem;
+display: list-item;
+text-align: left;
+} 
+
+.block--exp article {
+padding: var(--sizing);
+text-align: left;
+}
+
+.block--exp > article + article {
+border-top: 1px solid var(--separator-color);
+text-align: left;
+}
+
+.tags > span {
+display: inline-block;
+margin: 0 4px 8px 0;
+padding: 4px 16px;
+font-size: .85rem;
+background: rgba(126, 87, 194, 0.5);
+border-radius: 16px;
+box-shadow: 0 1px 2px 0 rgba(0,0,0,.3);
+color: #333;
+}
+
+.tags > span.strong {
+background: rgba(126, 87, 194, 0.7);
+}
+
+.tags > span.strong.x2 {
+background: var(--primary);
+}
+
+.pr {
+padding-right: 1rem;
+}
+
+.tc-main {
+color: var(--primary);
+}
+
+.bg-main {
+background: var(--primary);
+}
+
+.company {
+display: flex;
+align-items: baseline;
+}
+
+.company__name {
+color: var(--primary);
+font-weight: 600;
+font-size: .9rem;
+margin-left: .25rem;
+}
+
+.company__time {
+margin-left: 1rem;
+font-style: italic;
+}
