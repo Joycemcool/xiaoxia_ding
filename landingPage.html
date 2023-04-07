@@ -13,36 +13,40 @@ Student#: 0471965 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <!--<link rel="stylesheet" href="style.css">-->
+    <!-- font from google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap" rel="stylesheet">
+    <!-- own stylesheet -->
+    <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/portfolio_style.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
     <title>Xiaoxia_Ding_Portfolio</title>
-
 </head>
     <body>
         <!-- Responsive navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="index.html">Xiaoxia Ding</a>
+                <a class="navbar-brand" href="landingPage.html">Xiaoxia Ding</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link"  href="resume_xiaoxia_ding.html">Project
+                        <li class="nav-item"><a class="nav-link"  href="project_card_display.html">Project
                         </a></li>
                         <li class="nav-item"><a class="nav-link"  href="resume_xiaoxia_ding.html">Resume</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact.html">Contact Me</a></li>
                         <li class="nav-item dropdown">
                             <a class="nav-link active dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Learning Log</a>
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#A1">Python</a></li>
-                                <li><a class="dropdown-item" href="#A2">HTML</a></li>
+                                <li><a class="dropdown-item" href="index.html#A1">Python</a></li>
+                                <li><a class="dropdown-item" href="index.html#A2">HTML</a></li>
                                 <li><hr class="dropdown-divider" ></li>
-                                <li><a class="dropdown-item" href="#A5">Word</a></li>
+                                <li><a class="dropdown-item" href="index.html#A5">Word</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -50,7 +54,27 @@ Student#: 0471965 -->
             </div>
         </nav>
         <!-- Page content-->
-        <div class="container"> 
+        <div class="container">
+            <div class="row" >
+                <div class="col-md-4"> 
+                    <div class="landing-name">XIA</div>
+                </div>
+
+                <div class="col-md-4"> 
+                    <div class="landing-name slidingo"></div>
+                </div>
+
+                <div class="col-md-4"> 
+                    <div class="landing-name">XIA</div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- <div class="container"> 
             <div class="text-center mt-5">
                 <p class="landing-name">XIA </p>
                 <div class="landing-name slidingo d-inline-block">O</div>
@@ -58,12 +82,18 @@ Student#: 0471965 -->
             </div>
 
             <!-- black bar -->
-            <div class="text-center mx-auto black-bar">   </div>
-            <div class="landing-name text-center">DING</div>
+            <div class="text-center mx-auto black-bar marquee marquee-text">  
+                <!-- <div class="marquee marquee-text"> -->
+                    <span>Marketer and Programmer!</span>
+                    <span>Marketer and Programmer!</span>
+                    <span>Marketer and Programmer!</span>
+                <!-- </div> -->
+            </div>  
+            <div class="ding text-center">DING</div>
 
 
-        </div>
+        </div> -->
 
-        <footer class="text-center mt-5">Xiaoxia Ding Update on December, 2022</footer>
+        <footer class="container">Xiaoxia Ding Update on December, 2022</footer>
     </body>
 </html>
