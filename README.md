@@ -1,9 +1,6 @@
 
-  <img width="150px" src="https://www.nscc.ca/img/aboutnscc/visual-identity-guidelines/artwork/nscc-jpeg.jpg" >  
+  <img width="150px" src="https://unsplash.com/photos/Aw04fFn9ev8" >  
   
-
-# WEBD 1000 - Final Project 
-
 ##  e-Portfolio
 
 **Due as posted in Brightspace**

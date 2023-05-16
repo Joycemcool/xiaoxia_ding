@@ -111,31 +111,6 @@
   }
 }
 
-/* javascript of the landidng name */
-
-/* .name-animation {
-  position: relative; /* Set the container position to relative 
-}  
-
-.left_xia, .right_xia {
-  position: absolute; /* Set the elements position to absolute 
-  transition: left 0.5s ease; /*Add a smooth transition effect
-}
-
-/*.left_xia {
-  top: 100; /* Set the initial position of Element 1 
-  left: 0;
-}
-
-.right_xia {
-  top: 100; /* Set the initial position of Element 2 
-  left: 100;
-} */
-
-/*.left_xia:hover + .right_xia, .right_xia:hover {
-  left: 400;  Move Element 2 to the left on hover over Element 1
-}*/
-
 
 
 .slidingo{
