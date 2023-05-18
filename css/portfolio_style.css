@@ -1,20 +1,32 @@
 @charset "UTF-8";
 
 
- /* landing page xiaoxia ding*/
+ /* index page xiaoxia ding*/
 
 /* navbar style */
 .get-in-touch{
-  margin-left: 2rem;
-  background-color: #219ebc;
+  background-color: #fb8500;
+  padding-right: 20px; 
+  padding-top: 7px;
+  padding-bottom: 7px;
+   /* padding-left: 10px; */
+
   color: rgba(255,255,255,1); 
-  opacity: 1;
-  border-radius: 5px;
+  /* opacity: 1; */
+  /* border-radius: 5px; */
 
 }
+/* @media (max-width: 576px) {
+  .nav-link{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .get-in-touch{
+    background-color: #219ebc;
+  }
+} */
 
 .get-in-touch:hover{
-  color: rgb(215, 19, 19);
   background-color: #FFB703;
 }
 
