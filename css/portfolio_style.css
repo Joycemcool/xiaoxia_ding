@@ -312,7 +312,7 @@ footer {
 }
 
 a:link {
-  color: #212529;
+  color: #fff;
   text-decoration: none;
 }
   
@@ -322,8 +322,8 @@ a:link {
   
   /* mouse over link */
 a:hover, a:active {
-    color: #fff;
-    padding: 0.5rem;
+
+    /* padding: 0.5rem; */
     border-radius: 4px;
     background-color: #aaa;
 }
