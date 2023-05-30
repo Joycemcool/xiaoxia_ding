@@ -16,15 +16,7 @@
   /* border-radius: 5px; */
 
 }
-/* @media (max-width: 576px) {
-  .nav-link{
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .get-in-touch{
-    background-color: #219ebc;
-  }
-} */
+
 
 .get-in-touch:hover{
   background-color: #FFB703;
@@ -108,19 +100,39 @@
   font-family: 'Fredoka', sans-serif;
   line-height: auto;
 }
+
+@media (min-width: 576px) {
+  .landingPage-mobile{
+    display: none;
+  }
+}
+
 @media (max-width: 576px) {
-  .landing-name{
-    font-size: 3em;
-    margin-top: 100px;
+
+  body{
+    background-color: #023047;
   }
 
-  .ding{
-    font-size: 3em;
+  .bg-dark{
+    background-color: #023047 !important;
+  }
+  .navbar{
+    margin: 1em;
   }
 
-  .black-bar{
-    height: 1em;
+  .landingPage-mobile{
+    margin-top: 89px;
+    font-size: 34px;
+    color: #fff;  
   }
+  .mobileHead{
+    margin: 1rem;
+  }
+
+  .desktopIndex{
+    display: none;
+  }
+
 }
 
 
