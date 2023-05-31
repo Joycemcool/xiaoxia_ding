@@ -126,13 +126,38 @@
     color: #fff;  
   }
   .mobileHead{
-    margin: 1rem;
+    padding-left: 46px;
+    padding-right: 46px;
+    font-weight: bold;
+  }
+  .headBody{
+    font-size: 22px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    font-weight: lighter;
   }
 
   .desktopIndex{
     display: none;
   }
+  .custom-getInTouch-orange{
+    width: 100%;
+    background-color: #FB8500;
+    color: white;
+    font-size: 30;
 
+  }
+
+  .custom-footer{
+    margin-top: 4rem; 
+    margin-bottom: 1rem; 
+    text-align: center;
+    font-size: 16px;
+    font-weight: lighter;
+  }
+  .get-in-touch{
+    display: none;
+  }
 }
 
 
