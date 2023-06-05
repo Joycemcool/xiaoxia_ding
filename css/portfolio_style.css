@@ -105,14 +105,17 @@
   .landingPage-mobile{
     display: none;
   }
+
 }
 
 @media (max-width: 576px) {
-
   body{
-    background-color: #023047;
+    background-color: #fff;
   }
 
+  .card-heading{
+  text-align: center;
+  }
   .bg-dark{
     background-color: #023047 !important;
   }
@@ -123,7 +126,7 @@
   .landingPage-mobile{
     margin-top: 89px;
     font-size: 34px;
-    color: #fff;  
+    color: #000000;  
   }
   .mobileHead{
     padding-left: 46px;
@@ -159,24 +162,6 @@
     display: none;
   }
 }
-
-
-
-.slidingo{
-  display: inline;
-  /* font-size: 11em; */
-  padding: 0px;
-  border-radius: 70px;
-  margin-top: auto;
-  margin-bottom: auto; 
-  padding-left: 100px;
-  padding-right: 100px;
-  background: #FFB703;
-   /* width: 100%;  */
-  height: 188px;
-}
-
-
 
 div p {
   display: inline-block;
