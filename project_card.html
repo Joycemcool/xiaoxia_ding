@@ -85,7 +85,7 @@ Student#: 0471965 -->
             <h2 class="card-heading" style="margin-top: 5rem; ">Database Management</h2>
             <div class="row ">
                 <div class="col" style="margin-top: 10px;">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card open" style="width: 18rem;">
                         <img src="img/R.jpg" class="card-img-top" alt="R">
                         <div class="card-body">
                             <h5 class="card-title">R</h5>
@@ -94,8 +94,19 @@ Student#: 0471965 -->
                         </div>
                     </div>
                 </div>
+
+                <!-- <div class="col" style="margin-top: 10px;">
+                    <div class="card open" style="width: 18rem;">
+                        <img src="img/R.jpg" class="card-img-top" alt="R">
+                        <div class="card-body">
+                            <h5 class="card-title">R</h5>
+                            <p class="card-text">Statistical computing and graphics. Data manipulation, transformation, and visualization.</p>
+                            <a href="project_detail.html" class="btn custom-bt-orange">Learn More</a>
+                        </div>
+                    </div>
+                </div> -->
                 
-                <div class="col" style="margin-top: 10px;">
+                <!-- <div class="col" style="margin-top: 10px;">
                     <div class="card" style="width: 18rem;">
                         <img src="img/sql.png" class="card-img-top" alt="SQL">
                         <div class="card-body">
@@ -104,7 +115,7 @@ Student#: 0471965 -->
                             <a href="project_detail.html" class="btn custom-bt-orange">Learn More</a>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="col" style="margin-top: 10px;">
                     <div class="card" style="width: 18rem;">
                         <img src="img/Tableau.jpg" class="card-img-top" alt="Tableau">
@@ -160,7 +171,7 @@ Student#: 0471965 -->
 
         <h2 class="card-heading">Object Oriented Language</h2>
         <div class="row">
-            <div class="col" style="margin-top: 10px;">
+            <div class="col open" style="margin-top: 10px;">
                 <div class="card" style="width: 18rem;">
                     <!-- <div class="card mx-auto" style="width: 18rem;"> -->
                     <img src="img/Java.png" class="card-img-top" alt="Java">
@@ -215,18 +226,27 @@ Student#: 0471965 -->
   // Function to check the media query state and add class
   function checkMediaQuery() {
     var mediaQuery = window.matchMedia('(max-width: 576px)'); // Adjust the media query as per your requirement
-    console.log("Works")
+
     const cards = document.querySelectorAll('.card');
     if (mediaQuery.matches) {
       // Mobile view
       cards.forEach(card => card.classList.add('mx-auto'));
-    //   document.querySelectorAll('.card').classList.add('mx-auto');
-      console.log("Works")
     } else {
       // Desktop view
       cards.forEach(card => card.classList.remove('mx-auto'));
     }
   }
+
+  
+//   .open > * {
+//       margin: 0;
+//       width: 100%;
+//       transition: transform 0.5s;
+//       flex: 1 0 auto;
+//       display: flex;
+//       justify-content: center;
+//       align-items: center;
+//     }
 
 </script>
 

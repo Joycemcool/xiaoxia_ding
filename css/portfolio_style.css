@@ -105,7 +105,13 @@
   .landingPage-mobile{
     display: none;
   }
-
+  .col{
+    display: flex;
+  }
+  .open{
+    display: flex;
+    flex-grow: 3;
+  }
 }
 
 @media (max-width: 576px) {
