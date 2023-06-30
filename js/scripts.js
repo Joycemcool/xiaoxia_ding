@@ -13,16 +13,16 @@
 // var left_xia = document.getElementById("left_xia");
 // var right_xia = document.getElementById("right_xia");
 
-var left_xia = document.getElementsByClassName("left_xia");
-var right_xia = document.getElementsByClassName("right_xia");
+// var left_xia = document.getElementsByClassName("left_xia");
+// var right_xia = document.getElementsByClassName("right_xia");
 
-element1.addEventListener("mousemove", exchangePositions);
-element2.addEventListener("mousemove", exchangePositions);
+// element1.addEventListener("mousemove", exchangePositions);
+// element2.addEventListener("mousemove", exchangePositions);
 
-function exchangePositions(event) {
+// function exchangePositions(event) {
 
-    var temp = left_xia.style.left;
-    left_xia.style.left = right_xia.style.left;
-    right_xia.style.left = temp;
-  }
+//     var temp = left_xia.style.left;
+//     left_xia.style.left = right_xia.style.left;
+//     right_xia.style.left = temp;
+//   }
   
