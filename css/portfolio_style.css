@@ -23,7 +23,7 @@
 }
 
 .landing-name{
-  font-size: 11em;
+  font-size: 9em;
   display: inline-block;
   margin-top: 180px;
   padding-bottom: 0;
@@ -95,13 +95,14 @@
 .ding{
   margin-top: 0;
   padding-top: 0;
-  font-size: 11em;
+  font-size: 9em;
   display: inline-block;
   font-family: 'Fredoka', sans-serif;
   line-height: auto;
 }
 
-@media (min-width: 576px) {
+/* Media query in Tablet and big screen */
+@media (min-width: 768px) {
   .landingPage-mobile{
     display: none;
   }
@@ -113,8 +114,20 @@
     flex-grow: 3;
   }
 }
+/* Media query in big screen */
+@media (min-width: 992px) {
+  .landing-name{
+    font-size: 11em;
+  }
+  .ding{
+    font-size: 11em;
+  }
+}
 
-@media (max-width: 576px) {
+
+
+/* Index page change style in tablet and mobile */
+@media (max-width: 768px) {
   body{
     background-color: #fff;
   }
