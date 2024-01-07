@@ -18,6 +18,8 @@
 }
 
 
+
+
 /* navbar style */
 .get-in-touch{
   background-color: #fb8500;
@@ -391,7 +393,7 @@ a:link {
   /* mouse over link */
 a:hover, a:active {
 
-    /* padding: 0.5rem; */
+    padding: 0.5rem;
     border-radius: 4px;
     background-color: #aaa;
 }
