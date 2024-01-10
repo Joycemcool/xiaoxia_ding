@@ -175,6 +175,9 @@
     padding-bottom: 55px;
     font-weight: lighter;
   }
+  .mobileProject{
+    margin: 0 2em;
+  }
 
   .desktopIndex{
     display: none;
