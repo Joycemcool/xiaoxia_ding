@@ -5,6 +5,7 @@
 /* 2024-01-07 Embed youtube video style */
 .iframe-container{
   position: relative;
+
   width: 100%;
   padding-bottom: 56.25%; 
   height: 0;
@@ -176,18 +177,24 @@
     font-weight: lighter;
   }
   .mobileProject{
-    margin: 0 2em;
+    font-size: 0.6em;
+  }
+
+  .project-title{
+    white-space: nowrap;
+            overflow: hidden;
+            animation: appearDisappear 5s linear infinite;
   }
 
   .desktopIndex{
     display: none;
   }
+
   .custom-getInTouch-orange{
     width: 100%;
     background-color: #FB8500;
     color: white;
     font-size: 30;
-
   }
 
   .custom-footer{
@@ -290,6 +297,10 @@ div p {
 }
 
 /* customize buttons */
+.github-btn{
+  padding: 1em;
+  /* background: #F2AD00; */
+}
 
 .btn-block{
   display: block;
