@@ -195,6 +195,9 @@
     background-color: #FB8500;
     color: white;
     font-size: 30;
+  } 
+  .custom-getInTouch-orange:hover  {
+    background-color: rgba(251, 133, 0,0.5);
   }
 
   .custom-footer{
@@ -367,8 +370,7 @@ div p {
 }
 
 .custom-bt-orange:hover {
-  color: #fff;
-  background-color: #E87C00;
+  background-color: rgba(251, 133, 0,0.5);
   border-color: #E87C00;
 }
 /*!
